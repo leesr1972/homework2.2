@@ -1,16 +1,9 @@
 package sky.pro.java.course2;
 
 public class PrintService {
-    public void printStudentOfGryffindor (Gryffindor[] gryffindors, String name) {
+    public void printStudentOfGryffindor (Gryffindor student) {
         System.out.println();
-        for (int i = 0; i < gryffindors.length; i++) {
-            Gryffindor student = gryffindors[i];
-            if (student.getName().equals(name)) {
-                System.out.println("Факультет - Гриффиндор.");
-                System.out.println("Студент " + student.toString());
-                System.out.println(student.toStringGryffindor());
-            }
-        }
+        System.out.println(student.toStringGryffindor());
     }
 
     public void whoIsNoblerinGryffindor (Gryffindor[] gryffindors) {

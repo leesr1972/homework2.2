@@ -29,7 +29,7 @@ public class Main {
         };
 
         PrintService printService = new PrintService();
-        printService.printStudentOfGryffindor(gryffindors,"Гарри Поттер");
+        printService.printStudentOfGryffindor(gryffindors[0]);
         printService.whoIsNoblerinGryffindor(gryffindors);
         printService.whoIsHarderWorkingInHufflepuff(hufflepuffs);
         printService.whoIsMoreIntelligentInRavenclaw(ravenclaws);
