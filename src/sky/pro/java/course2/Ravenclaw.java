@@ -1,10 +1,10 @@
 package sky.pro.java.course2;
 
 public class Ravenclaw extends Hogwarts{
-    int intellect;
-    int wisdom;
-    int wit;
-    int creativity;
+    private int intellect;
+    private int wisdom;
+    private int wit;
+    private int creativity;
 
     public Ravenclaw(String name, int intellect, int wisdom, int wit, int creativity, int witchcraft, int transgression) {
         super(name, witchcraft, transgression);
@@ -28,5 +28,11 @@ public class Ravenclaw extends Hogwarts{
 
     public int getCreativity() {
         return creativity;
+    }
+
+    public String toStringRavenclaw() {
+        return "Интеллект - " + intellect + ";" + '\n' +
+                "Мудрость - " + wisdom + ";" + '\n' + "Остроумие - " + wit + ";" + '\n' +
+                "Креативность - " + creativity + ".";
     }
 }

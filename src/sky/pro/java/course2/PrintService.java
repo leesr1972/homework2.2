@@ -6,13 +6,9 @@ public class PrintService {
         for (int i = 0; i < gryffindors.length; i++) {
             Gryffindor student = gryffindors[i];
             if (student.getName().equals(name)) {
-                System.out.println("Студент " + student.getName() + ":");
-                System.out.println("Факультет - Гриффиндор;");
-                System.out.println("Колдовство - " + student.getWitchcraft() + ";");
-                System.out.println("Трансгрессия - " + student.getTransgression() + ";");
-                System.out.println("Благородство - " + student.getNobility() + ";");
-                System.out.println("Честь - " + student.getHonor() + ";");
-                System.out.println("Храбрость - " + student.getBravery() + ".");
+                System.out.println("Факультет - Гриффиндор.");
+                System.out.println("Студент " + student.toString());
+                System.out.println(student.toStringGryffindor());
             }
         }
     }

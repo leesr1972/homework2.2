@@ -35,4 +35,10 @@ public class Slytherin extends Hogwarts{
     public int getPower() {
         return power;
     }
+
+    public String toStringSlytherin() {
+        return "Хитрость - " + trick + ";" + '\n' +
+                " Решительность - " + determination + ";" + '\n' + "Амбициозность - " + ambition + ";" + '\n'
+                + "Находчивость - " + resourcefulness + ";" + '\n' + "Жажда власти - " + power + ".";
+    }
 }

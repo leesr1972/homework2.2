@@ -1,9 +1,9 @@
 package sky.pro.java.course2;
 
 public class Hogwarts {
-    String name;
-    int witchcraft;
-    int transgression;
+    private final String name;
+    private int witchcraft;
+    private int transgression;
 
     public Hogwarts(String name, int witchcraft, int transgression) {
         this.name = name;
@@ -21,5 +21,11 @@ public class Hogwarts {
 
     public int getTransgression() {
         return transgression;
+    }
+
+    @Override
+    public String toString() {
+        return name + ":" + '\n' + "Колдовство - " + witchcraft + ";" + '\n' + "Трансгрессия - "
+                + transgression + ";";
     }
 }

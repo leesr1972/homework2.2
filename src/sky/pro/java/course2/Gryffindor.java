@@ -1,9 +1,9 @@
 package sky.pro.java.course2;
 
 public class Gryffindor extends Hogwarts {
-    int nobility;
-    int honor;
-    int bravery;
+    private int nobility;
+    private int honor;
+    private int bravery;
 
     public Gryffindor(String name, int nobility, int honor, int bravery, int witchcraft, int transgression) {
         super(name, witchcraft, transgression);
@@ -22,5 +22,10 @@ public class Gryffindor extends Hogwarts {
 
     public int getBravery() {
         return bravery;
+    }
+
+    public String toStringGryffindor() {
+        return "Благородство - " + nobility + ";" + '\n' + "Честь - "
+                + honor + ";" + '\n' + "Храбрость - " + bravery + ".";
     }
 }
