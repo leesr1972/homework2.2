@@ -31,7 +31,8 @@ public class Ravenclaw extends Hogwarts{
     }
 
     public String toStringRavenclaw() {
-        return "Интеллект - " + intellect + ";" + '\n' +
+        return getName() + ":" + '\n' + "Факультет - Когтевран;" + '\n' + "Колдовство - " + getWitchcraft()
+                + ";" + '\n' + "Трансгрессия - " + getTransgression() + ";" + '\n' + "Интеллект - " + intellect + ";" + '\n' +
                 "Мудрость - " + wisdom + ";" + '\n' + "Остроумие - " + wit + ";" + '\n' +
                 "Креативность - " + creativity + ".";
     }
