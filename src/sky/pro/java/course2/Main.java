@@ -30,6 +30,9 @@ public class Main {
 
         PrintService printService = new PrintService();
         printService.printStudent(gryffindors[0]);
+        printService.printStudent(hufflepuffs[1]);
+        printService.printStudent(ravenclaws[0]);
+        printService.printStudent(slytherins[2]);
         printService.whoIsNoblerinGryffindor(gryffindors);
         printService.whoIsHarderWorkingInHufflepuff(hufflepuffs);
         printService.whoIsMoreIntelligentInRavenclaw(ravenclaws);
