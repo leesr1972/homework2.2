@@ -1,9 +1,9 @@
 package sky.pro.java.course2;
 
 public class PrintService {
-    public void printStudentOfGryffindor (Gryffindor student) {
+    public void printStudent (Hogwarts student) {
         System.out.println();
-        System.out.println(student.toStringGryffindor());
+        System.out.println(student.toString());
     }
 
     public void whoIsNoblerinGryffindor (Gryffindor[] gryffindors) {

@@ -24,7 +24,7 @@ public class Hufflepuff extends Hogwarts {
         return honesty;
     }
 
-    public String toStringHufflepuff() {
+    public String toString() {
         return getName() + ":" + '\n' + "Факультет - Пуффендуй;" + '\n' + "Колдовство - " + getWitchcraft()
                 + ";" + '\n' + "Трансгрессия - " + getTransgression() + ";" + '\n' +"Трудолюбие - " + industriousness + ";" + '\n' +
                 "Верность - " + loyalty + ";" + '\n' + "Честность - " + honesty + ".";

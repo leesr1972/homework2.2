@@ -24,7 +24,7 @@ public class Gryffindor extends Hogwarts {
         return bravery;
     }
 
-    public String toStringGryffindor() {
+    public String toString() {
         return getName() + ":" + '\n' + "Факультет - Гриффиндор;" + '\n' + "Колдовство - " + getWitchcraft()
                 + ";" + '\n' + "Трансгрессия - " + getTransgression() + ";" + '\n' +
                 "Благородство - " + nobility + ";" + '\n' + "Честь - " + honor + ";" + '\n' +
